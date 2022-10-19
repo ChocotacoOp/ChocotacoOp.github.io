@@ -3,9 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Personal Portfolio Website - HTML, CSS & Vanilla Javascript</title>
+    <title>Rajat Santra Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- <link
+    rel="stylesheet"
+    href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    /> -->
   </head>
   <body>
 
@@ -20,7 +26,7 @@
         <a href="#main">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#services">Services</a>
+        <a href="#services">Contributions</a>
         <a href="#work">Work</a>
         <a href="#contact">Contact</a>
       </div>
@@ -129,43 +135,24 @@
       </div>
     </section>
 
-    <section class="services" id="services">
-      <div class="title reveal">
-        <h2 class="section-title">My Services</h2>
-        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
-        <p> I am a full-stack Web-Devoloper and now i am learning from Masai School as a full stack Web-devolper</p>
+    
+
+    <div class="container" id="stat" style="margin-bottom: 4%;">
+      <h1 class="sub-titl">My Stats</h1>
+      <h1><br></h1>
+  
+      <div class="stats" style="width: 100%;">
+          <img src="https://github-readme-stats.vercel.app/api?username=ChocotacoOp&theme=dark&hide_border=false&include_all_commits=true&count_private=false" alt="">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChocotacoOp&theme=dark&hide_border=false" alt="">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChocotacoOp&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="">
       </div>
-      <div class="content">
-        <!-- <div class="card reveal">
-          <div class="service-icon">
-            <i class="fas fa-palette"></i>
-          </div>
-          <div class="info">
-            <h3>Web Design</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div> -->
-        <div class="card reveal">
-          <div class="service-icon">
-            <i class="fas fa-file-code"></i>
-          </div>
-          <div class="info">
-            <h3>Web Development</h3>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
-            <p>I am full-stack webdevolper</p>
-          </div>
-        </div>
-        <!-- <div class="card reveal">
-          <div class="service-icon">
-            <i class="fas fa-object-group"></i>
-          </div>
-          <div class="info">
-            <h3>Motion Graphic Design</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div> -->
+  
+      <div class="calendar" style=" color: #f49812" >
+          <!-- Loading stuff -->
+          Loading the data just for you.
       </div>
-    </section>
+  
+  </div>
 
     <section class="work" id="work">
       <div class="title reveal">
@@ -312,6 +299,10 @@
       <span class="footer-title">Rajat Santra</span>
       <!-- <p>Copyright @2021 <a href="#">Coding Snow</a>. All Rights Reserved.</p> -->
     </footer>
+
+    <script
+    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+    ></script>
 
     <script src="script.js" charset="utf-8"></script>
 
