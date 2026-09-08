@@ -327,13 +327,13 @@ section .title::after {
 
 /* skills section styling */
 .skills-images img {
-  height: 150px;
-  width: 150px;
-  /* object-fit: cover; */
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
   border-radius: 5%;
-  /* border: 5px solid crimson; */
   transition: all 0.3s ease;
 }
+
 .skills-images img:hover{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   height: 110%;
@@ -523,6 +523,10 @@ section .title::after {
 .skills-images {
   width: 120px;
   height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
 }
 
 /* contact section styling */
